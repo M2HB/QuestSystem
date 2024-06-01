@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Task Descriptor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f183c99bccd49be488789aed9e67cc61, type: 2}
+  m_sharedMaterial: {fileID: 924548949688531642, guid: f183c99bccd49be488789aed9e67cc61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d5ad04bea8781a4e8b12c68783e0383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 6774673762540671645, guid: 4508a58558c732646bca9eec8d65848f, type: 3}
+  text: {fileID: 6774673762540671645}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
-  taskCompletionColor: {r: 0.15479863, g: 1, b: 0, a: 1}
+  taskCompletionColor: {r: 0, g: 0.2235241, b: 1, a: 1}
   taskSuccessCountColor: {r: 1, g: 0, b: 0, a: 1}
   strikeThroughColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}

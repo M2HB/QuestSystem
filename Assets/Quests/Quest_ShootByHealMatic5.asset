@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Quest_ShootByHealMatic5
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: d5b84fa6bb219d248858d3bb70d61bec, type: 2}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 00fac68470c2d9a4c8806051db938fcf, type: 3}
   codeName: SHOOT_BY_HEALMATIC_5
   displayName: Shoot HealMatic Gun 5Times.
   description: Shoot Healmatic 5times.
@@ -22,7 +22,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: cf712dde966e15b43b36c49bfe358d59, type: 2}
   rewards:
   - {fileID: 11400000, guid: 4fc9f8ccad7ee4947981dca3f26bec23, type: 2}
-  useAutoComplete: 0
+  useAutoComplete: 1
   isCancelable: 0
   isSaveAble: 0
   acceptionConditions: []

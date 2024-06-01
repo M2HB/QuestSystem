@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Category_Location
   m_EditorClassIdentifier: 
   codeName: LOCATION
-  displayName: 
+  displayName: location

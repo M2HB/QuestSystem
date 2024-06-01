@@ -77,8 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTitleText: {fileID: 3842680392208543818}
-  taskDescriptorPrefab: {fileID: -8276028561251260376, guid: 4508a58558c732646bca9eec8d65848f,
-    type: 3}
+  taskDescriptorPrefab: {fileID: -8276028561251260376, guid: 4508a58558c732646bca9eec8d65848f, type: 3}
 --- !u!1 &7910898280022624133
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,8 +145,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f183c99bccd49be488789aed9e67cc61, type: 2}
+  m_sharedMaterial: {fileID: 924548949688531642, guid: f183c99bccd49be488789aed9e67cc61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

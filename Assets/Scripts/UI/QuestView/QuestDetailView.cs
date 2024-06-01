@@ -84,18 +84,20 @@ public class QuestDetailView : MonoBehaviour
         {
             foreach (var task in taskGroup.Tasks)
             {
-                var poolOjbect = taskDescriptorPool[taskIndex++];
-                poolOjbect.gameObject.SetActive(true);
+                var poolObject = taskDescriptorPool[taskIndex++];
+                poolObject.gameObject.SetActive(true);
                 
                 if (taskGroup.IsComplete)
-                    poolOjbect.UpdateTextUsingStrikeThrough(task);
+                    poolObject.UpdateTextUsingStrikeThrough(task);
                 else if (taskGroup == quest.CurrentTaskGroup)
                 {
-                    poolOjbect.UpdateText(task);
+                    Debug.Log($"####### QuestDetailView UpdateText - CurrentTaskGroup");
+                    poolObject.UpdateText(task);
                 }
                 else
                 {
-                    poolOjbect.UpdateText("● ??????????");
+                    Debug.Log($"####### QuestDetailView UpdateText - ???");
+                    poolObject.UpdateText("● ??????????");
                 }
             }
         }

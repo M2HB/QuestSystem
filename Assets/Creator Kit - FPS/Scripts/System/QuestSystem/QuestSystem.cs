@@ -63,8 +63,8 @@ public class QuestSystem : MonoBehaviour
 
     private void Awake()
     {
-        questDatatabase = Resources.Load<QuestDatabase>("QuestDatabase");
-        achievementDatabase = Resources.Load<QuestDatabase>("AchievementDatabase");
+        questDatatabase = Resources.Load<QuestDatabase>("QuestDataBase");
+        achievementDatabase = Resources.Load<QuestDatabase>("AchievementDataBase");
 
         if (!Load())
         {
