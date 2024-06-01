@@ -76,7 +76,7 @@ public class GameSystem : MonoBehaviour
             s_CurrentLevel = 0;
         }
 #endif
-        
+        AddScore(PlayerPrefs.GetInt("bonusScore",0));
         GameSystemInfo.Instance.UpdateTimer(0);
     }
 
@@ -201,7 +201,12 @@ public class GameSystem : MonoBehaviour
         return m_Timer + penalty;
     }
 
-    
+    public void AddScore(int score)
+    {
+        m_Score += score;
+        GameSystemInfo.Instance.UpdateScore(m_Score);
+    }
+
     public void TargetDestroyed(int score)
     {
         m_TargetDestroyed += 1;

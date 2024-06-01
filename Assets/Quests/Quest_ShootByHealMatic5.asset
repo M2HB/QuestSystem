@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddd003086ccf35458ff7f91ab077a21, type: 3}
+  m_Name: Quest_ShootByHealMatic5
+  m_EditorClassIdentifier: 
+  category: {fileID: 11400000, guid: d5b84fa6bb219d248858d3bb70d61bec, type: 2}
+  icon: {fileID: 0}
+  codeName: SHOOT_BY_HEALMATIC_5
+  displayName: Shoot HealMatic Gun 5Times.
+  description: Shoot Healmatic 5times.
+  taskGroups:
+  - tasks:
+    - {fileID: 11400000, guid: cf712dde966e15b43b36c49bfe358d59, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 4fc9f8ccad7ee4947981dca3f26bec23, type: 2}
+  useAutoComplete: 0
+  isCancelable: 0
+  isSaveAble: 0
+  acceptionConditions: []
+  cancelConditions: []
