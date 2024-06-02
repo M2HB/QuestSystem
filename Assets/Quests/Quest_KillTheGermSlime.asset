@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Quest_KillTheGermSlime
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: c85e73cc6b868ee4cadda94ab909fe15, type: 2}
-  icon: {fileID: 21300000, guid: 879adcbf7ca5cc944b7b39abb1d958b6, type: 3}
+  icon: {fileID: 21300000, guid: a60e08b3827b14544b9af6c37c234200, type: 3}
   codeName: KILL_THE_GERM_SLIME
-  displayName: "\uBA54\uC778\uD018\uC2A4\uD2B8 \uD074\uB9AC\uC5B4"
-  description: "\uD018\uC2A4\uD2B8\uB97C \uD074\uB9AC\uC5B4\uD558\uC138\uC694."
+  displayName: "\uBA54\uC778\uD018\uC2A4\uD2B8"
+  description: "\uD558\uC704 \uD018\uC2A4\uD2B8 \uD074\uB9AC\uC5B4"
   taskGroups:
   - tasks:
     - {fileID: 11400000, guid: d21f4c4cbc7de9c4dbd3fedb7c44a2e1, type: 2}
@@ -34,5 +34,6 @@ MonoBehaviour:
   useAutoComplete: 0
   isCancelable: 0
   isSaveAble: 0
-  acceptionConditions: []
+  acceptionConditions:
+  - {fileID: 11400000, guid: 17b62cdd82d6c2440a45c153fab6e33c, type: 2}
   cancelConditions: []

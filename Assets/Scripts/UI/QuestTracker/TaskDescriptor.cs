@@ -50,7 +50,7 @@ public class TaskDescriptor : MonoBehaviour
 
     private string BuildText(Task task, string textColorCode, string successCountColorCode)
     {
-        return $"<color=#{textColorCode}>@ {task.Description} <color=#{successCountColorCode}>{task.CurrentSuccess}</color>/{task.NeedSuccessToComplete}</color>";
+        return $"<color=#{textColorCode}>- {task.Description} <color=#{successCountColorCode}>{task.CurrentSuccess}</color>/{task.NeedSuccessToComplete}</color>";
     }
 
 }

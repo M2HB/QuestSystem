@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 062a69a0898df4d4a88d671ec12265f7, type: 2}
   codeName: MOVE_TO_FIRST_BLOB
-  description: You move to first blob
+  description: "\uCCAB\uBC88\uC9F8 \uBB38 \uC5F4\uAE30"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: ea8fd1f8cc8f2ba488bd70811e4f68b1, type: 2}

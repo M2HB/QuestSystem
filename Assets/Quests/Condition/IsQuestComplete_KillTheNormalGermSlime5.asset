@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f95be3e7ff7e5c94a8e6b5a3367a60b6, type: 3}
   m_Name: IsQuestComplete_KillTheNormalGermSlime5
   m_EditorClassIdentifier: 
-  description: 
+  description: "\uC77C\uBC18\uC2AC\uB77C\uC784 5\uB9C8\uB9AC \uC81C\uAC70."
   target: {fileID: 11400000, guid: bf188ba8396cb9d409e1249ed424a00d, type: 2}

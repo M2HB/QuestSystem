@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 61ab2709d06e0834fb710e8693d11861, type: 2}
   codeName: COLLECT_FIRST_KEY
-  description: You have to collect first key
+  description: "\uCCAB\uBC88\uC9F8 \uC5F4\uC1E0 \uD68D\uB4DD"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: 7ac7659305467b7458939eb9361724d2, type: 2}

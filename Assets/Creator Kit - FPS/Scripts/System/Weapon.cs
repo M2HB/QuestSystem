@@ -146,6 +146,13 @@ public class Weapon : MonoBehaviour
         m_Owner = c;
     }
 
+    public void AddAmmo(int ammo)
+    {
+        m_ClipContent += ammo;
+        WeaponInfoUI.Instance.UpdateClipInfo(this);
+        Debug.Log($"####### Add Ammo Weapon {gameObject.name} => Clip {m_ClipContent} ClipSize {clipSize}");
+    }
+
     public void PutAway()
     {
         m_Animator.WriteDefaultValues();

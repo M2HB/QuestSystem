@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd751be74d2cb7444b1733f8cf021b42, type: 3}
-  m_Name: Task_MoveToWayOut
+  m_Name: Task_KillTheNormalGermSlime7
   m_EditorClassIdentifier: 
-  category: {fileID: 11400000, guid: 062a69a0898df4d4a88d671ec12265f7, type: 2}
-  codeName: MOVE_TO_WAY_OUT
-  description: "\uCD9C\uAD6C\uB85C \uAC00\uAE30"
+  category: {fileID: 11400000, guid: 42de1858c07007049891020229c44bb5, type: 2}
+  codeName: KILL_THE_NORMAL_GERM_SLIME_7
+  description: "\uC77C\uBC18 \uC2AC\uB77C\uC784 7\uB9C8\uB9AC \uC81C\uAC70"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
-  - {fileID: 11400000, guid: 0978dc3420069e04990919ccd7c07b0d, type: 2}
+  - {fileID: 11400000, guid: ee381caa0742ad54bba1e439c384e017, type: 2}
   initialSuccessValue: {fileID: 0}
-  needSuccessToComplete: 1
+  needSuccessToComplete: 7
   canReceiveReportsDuringCompletion: 0

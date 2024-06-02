@@ -311,6 +311,13 @@ public class Controller : MonoBehaviour
         }
     }
 
+    public void AddAmmo(int ammoType, int addedAmount)
+    {
+        m_AmmoInventory[ammoType] += addedAmount;
+        //m_Weapons[ammoType].AddAmmo(addedAmount);
+        m_Weapons[ammoType].Selected();
+    }
+
     public void PlayFootstep()
     {
         FootstepPlayer.PlayRandom();

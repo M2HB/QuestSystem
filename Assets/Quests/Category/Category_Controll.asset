@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 597faf4653d72e543bf3971f72ddc75d, type: 3}
-  m_Name: Category_Main
+  m_Name: Category_Controll
   m_EditorClassIdentifier: 
-  codeName: MAIN
-  displayName: "\uBA54\uC778"
+  codeName: CONTROLL
+  displayName: "\uC870\uC791"

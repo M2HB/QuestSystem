@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bddd003086ccf35458ff7f91ab077a21, type: 3}
-  m_Name: Quest_ShootByHealMatic5
+  m_Name: Quest_Tutorial
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: d5b84fa6bb219d248858d3bb70d61bec, type: 2}
   icon: {fileID: 21300000, guid: 00fac68470c2d9a4c8806051db938fcf, type: 3}
   codeName: SHOOT_BY_HEALMATIC_5
-  displayName: Shoot HealMatic Gun 5Times.
-  description: Shoot Healmatic 5times.
+  displayName: "\uD29C\uD1A0\uB9AC\uC5BC"
+  description: "\uC870\uC791\uBC95\uC744 \uC775\uD788\uC138\uC694"
   taskGroups:
   - tasks:
     - {fileID: 11400000, guid: cf712dde966e15b43b36c49bfe358d59, type: 2}
+  - tasks:
+    - {fileID: 11400000, guid: a66824eec8968fb4884d7e3b08ac9f20, type: 2}
   rewards:
   - {fileID: 11400000, guid: 4fc9f8ccad7ee4947981dca3f26bec23, type: 2}
   useAutoComplete: 1

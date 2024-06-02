@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 61ab2709d06e0834fb710e8693d11861, type: 2}
   codeName: COLLECT_SECOND_KEY
-  description: You have to collect second key
+  description: "\uB450\uBC88\uC9F8 \uC5F4\uC1E0 \uD68D\uB4DD"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: f43387c09f527054da6e83c363bf72c3, type: 2}

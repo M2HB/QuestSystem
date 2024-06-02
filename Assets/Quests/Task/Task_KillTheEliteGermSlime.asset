@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 42de1858c07007049891020229c44bb5, type: 2}
   codeName: KILL_THE_ELITE_GERM_SLIME_3
-  description: You have to kill the elite germ slime
+  description: "\uC5D8\uB9AC\uD2B8 \uC2AC\uB77C\uC784 3\uB9C8\uB9AC \uC81C\uAC70"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: 188a673dfe109b54fa24929d5177ff41, type: 2}

@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bddd003086ccf35458ff7f91ab077a21, type: 3}
-  m_Name: Quest_KillTheNormalGermSlime6
+  m_Name: Quest_KillTheNormalGermSlime7
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 42de1858c07007049891020229c44bb5, type: 2}
   icon: {fileID: 21300000, guid: 879adcbf7ca5cc944b7b39abb1d958b6, type: 3}
-  codeName: KILL_THE_NORMAL_GERM_SLIME_6
-  displayName: "\uC77C\uBC18\uC2AC\uB77C\uC784 6\uB9C8\uB9AC \uC81C\uAC70"
-  description: "\uC77C\uBC18\uC2AC\uB77C\uC784 6\uB9C8\uB9AC\uB97C \uC81C\uAC70\uD558\uC138\uC694."
+  codeName: KILL_THE_NORMAL_GERM_SLIME_7
+  displayName: "\uC77C\uBC18\uC2AC\uB77C\uC784 7\uB9C8\uB9AC \uC81C\uAC70"
+  description: "\uC77C\uBC18\uC2AC\uB77C\uC784 7\uB9C8\uB9AC\uB97C \uC81C\uAC70\uD558\uC138\uC694."
   taskGroups:
   - tasks:
-    - {fileID: 11400000, guid: 4274ee15336cda142908ce8b359a2812, type: 2}
+    - {fileID: 11400000, guid: 6a982099184648248b73296093784ede, type: 2}
   rewards:
   - {fileID: 11400000, guid: 948b2cbb285b31e4cad2993839dd0672, type: 2}
   useAutoComplete: 1
@@ -27,5 +27,5 @@ MonoBehaviour:
   isSaveAble: 0
   acceptionConditions:
   - {fileID: 11400000, guid: 17b62cdd82d6c2440a45c153fab6e33c, type: 2}
-  - {fileID: 11400000, guid: 7c9d4f0ea2fa7134297b7bb499694f4c, type: 2}
+  - {fileID: 11400000, guid: 379aa7115ff182b4e8691bdd21576d73, type: 2}
   cancelConditions: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: 42de1858c07007049891020229c44bb5, type: 2}
   codeName: KILL_THE_NORMAL_GERM_SLIME_6
-  description: You have to kill the normal germ slime
+  description: "\uC77C\uBC18 \uC2AC\uB77C\uC784 6\uB9C8\uB9AC \uC81C\uAC70"
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: ee381caa0742ad54bba1e439c384e017, type: 2}

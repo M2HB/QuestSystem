@@ -15,15 +15,16 @@ MonoBehaviour:
   category: {fileID: 11400000, guid: 42de1858c07007049891020229c44bb5, type: 2}
   icon: {fileID: 21300000, guid: 879adcbf7ca5cc944b7b39abb1d958b6, type: 3}
   codeName: KILL_THE_NORMAL_GERM_SLIME_5
-  displayName: Terminate Slime T1
-  description: You have to Kill the normal germ slime
+  displayName: "\uC77C\uBC18\uC2AC\uB77C\uC784 5\uB9C8\uB9AC \uC81C\uAC70"
+  description: "\uC77C\uBC18\uC2AC\uB77C\uC784 5\uB9C8\uB9AC\uB97C \uC81C\uAC70\uD558\uC138\uC694"
   taskGroups:
   - tasks:
     - {fileID: 11400000, guid: c7f655ea59aa6d640aab64957573eca9, type: 2}
   rewards:
-  - {fileID: 11400000, guid: 4fc9f8ccad7ee4947981dca3f26bec23, type: 2}
-  useAutoComplete: 0
-  isCancelable: 0
-  isSaveAble: 1
-  acceptionConditions: []
+  - {fileID: 11400000, guid: 948b2cbb285b31e4cad2993839dd0672, type: 2}
+  useAutoComplete: 1
+  isCancelable: 1
+  isSaveAble: 0
+  acceptionConditions:
+  - {fileID: 11400000, guid: 17b62cdd82d6c2440a45c153fab6e33c, type: 2}
   cancelConditions: []

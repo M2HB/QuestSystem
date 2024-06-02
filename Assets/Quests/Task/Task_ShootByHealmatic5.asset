@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: {fileID: 11400000, guid: d5b84fa6bb219d248858d3bb70d61bec, type: 2}
   codeName: SHOOT_BY_HEALMATIC_5
-  description: Shoot Healmatic 5times.
+  description: "\uAD8C\uCD1D(1\uBC88 \uBB34\uAE30)\uB97C 5\uBC88 \uBC1C\uC0AC\uD558\uC138\uC694."
   action: {fileID: 11400000, guid: 4a903d201f1ade345882ae1dc3ea1cd4, type: 2}
   targets:
   - {fileID: 11400000, guid: 8634fff034e027641afb6c5c7af64e84, type: 2}
